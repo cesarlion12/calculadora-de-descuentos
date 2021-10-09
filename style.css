@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Varela+Round&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.main-container{
+    width: 30vw;
+    height: auto;
+}
+
+header{
+    display: block;
+    margin: 30px auto 0;
+    text-align: center;
+}
+
+header h1 {
+    font-family: 'Varela Round';
+    font-size: 3.8rem;
+    margin-bottom: 8px;
+}
+
+.header__subtitle{
+    font-family: 'Varela Round';
+    font-size: 1.8rem;
+}
+
+.main-container{
+    margin: 90px auto 10px;
+}
+
+.main-container h2{
+    font-family: 'Varela Round';
+    font-size: 2.0rem;
+    text-align:center;
+    color: rgba(15, 89, 226, 0.616);
+}
+
+.Fomulario{
+    display: inline-block;
+    width: 350px;
+    height: 50vh;
+    margin: 15px auto 0;
+    padding-top: 30px;
+    text-align: center;
+    border-radius: 4px;
+    background-image: radial-gradient(circle at -11.24% 85.36%, #5cffff 0, #6ceaff 25%, #6cb4d8 50%, #618297 75%, #4e575f 100%);
+}
+
+.formulario__label{
+    display: block;
+    margin: 5px 0 0 5px;
+    font-size: 1.8rem;
+    font-family: 'Varela Round';
+    font-weight: bold;
+}
+
+#InputPrice{
+    height: 25px;
+    margin: 0 0 5px 5px;
+    border-radius: 20px;
+}
+
+#InputCoupon{
+    height: 25px;
+    margin: 0 0 20px 5px;
+    border-radius: 20px;
+}
+
+#resultP{
+    margin: 20px auto;
+    font-size: 1.4rem;
+    font-family: 'Varela Round';
+    font-weight: bold;
+}
+.Button__Calcular{
+    width: 300px;
+    height: 30px;
+    margin-top: 20px;
+    font-size: 1.4rem;
+    font-family: 'Varela Round';
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #fd7005;
+}
